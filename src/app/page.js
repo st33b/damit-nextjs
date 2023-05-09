@@ -1,4 +1,3 @@
-import styles from './page.module.scss';
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Title from "@/components/title";
@@ -8,6 +7,8 @@ import RegisterCTA from "@/components/register_cta";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Sponsors from "@/components/sponsors";
+
+import styles from './page.module.scss';
 
 const MainPage = () => {
   return (
