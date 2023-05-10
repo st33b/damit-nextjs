@@ -1,25 +1,32 @@
-import styles from './navigation.module.scss';
-
 const Navigation = () => {
 
   return (
-    <div className={styles.Navigation}>
+    <div>
       <div className={`navbar navbar-expand-lg`}>
         <div className={`container-fluid`}>
           <button
-                  type={'button'}
-                  className={'navbar-toggler ms-auto'}
-                  data-mdb-toggle={'collapse'}
-                  data-mdb-target={'#navbarContent'}
-                  aria-controls={`navbarContent`}
-                  aria-expanded={false}
-                  aria-label={'Toggle navigation'}>
+            type={'button'}
+            className={'navbar-toggler me-auto'}
+            data-mdb-toggle={'collapse'}
+            data-mdb-target={'#navbarContent'}
+            aria-controls={`navbarContent`}
+            aria-expanded={false}
+            aria-label={'Toggle navigation'}>
             <i className={'fas fa-bars'} />
           </button>
 
-          <div className={`collapse navbar-collapse`} id={'navbarContent'}>
+          {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
+            <ul className={`navbar-nav order-lg-last`}>
+              <li className={`nav-item`}>
+                <a className={`nav-link`} href={'#top'}>
+                  Register
+                </a>
+              </li>
+            </ul>
+          {/*</div>*/}
 
-            <ul className={`navbar-nav w-100 mb-2 mb-lg-0`}>
+          <div className={`collapse navbar-collapse`} id={'navbarContent'}>
+            <ul className={`navbar-nav mb-2 mb-lg-0`}>
               <li className={`nav-item`}>
                 <a className={`nav-link`} href={'#top'}>
                   Home
@@ -52,16 +59,9 @@ const Navigation = () => {
                   Dallas
                 </a>
               </li>
-
-              {/* Let's put the Register link on the right on larger viewports */}
-              <li className={`ms-lg-auto`}>
-                <a className={`nav-link`} href={'#top'}>
-                  Register
-                </a>
-              </li>
             </ul>
-
           </div>
+
         </div>
       </div>
     </div>
