@@ -4,7 +4,17 @@ const Sponsors = () => {
 
   return (
     <div className={styles.Sponsors}>
-      SPONSORS
+      <div className={`d-flex justify-content-around`}>
+        <div className={`${styles.Sponsor}`}>
+          <i className={`fas fa-magnifying-glass-dollar fa-3x`} />
+        </div>
+        <div className={`${styles.Sponsor}`}>
+          <i className={`fas fa-comment-dollar fa-3x`} />
+        </div>
+        <div className={`${styles.Sponsor}`}>
+          <i className={`fas fa-magnifying-glass-dollar fa-3x`} />
+        </div>
+      </div>
     </div>
   )
 }

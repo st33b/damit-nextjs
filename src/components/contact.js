@@ -4,11 +4,11 @@ const Contact = () => {
 
   return (
     <div className={styles.Contact}>
-      <h4>
+      <h3>
         Contacts
-      </h4>
-      <div className={`row`}>
-        <div className={`col-6 col-md-4 offset-md-2`}>
+      </h3>
+      <div className={`row justify-content-center`}>
+        <div className={`col-6 col-md-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <div className={`card-body`}>
               <i className={`fas  fa-4x fa-user`}/>
@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className={`col-6 col-md-4`}>
+        <div className={`col-6 col-md-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <div className={`card-body`}>
               <i className={`fas fa-4x fa-user`}/>
