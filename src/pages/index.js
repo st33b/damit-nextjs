@@ -4,19 +4,20 @@ import Location from "@/components/location";
 import Schedule from "@/components/schedule";
 import RegisterCTA from "@/components/register_cta";
 import Contact from "@/components/contact";
-import Footer from "@/components/layouts/footer";
+import Dallas from "@/components/dallas";
 import Sponsors from "@/components/sponsors";
 import RootLayout from "@/components/layouts/layout";
 
 const MainPage = () => {
   return (
     <div>
-      <Title/>
+      <Title id={'top'}/>
       <Hero/>
-      <Location/>
-      <Schedule/>
+      <Location id={'location'}/>
+      <Schedule id={'schedule'}/>
+      <Dallas full={false} id={'dallas'}/>
       <RegisterCTA/>
-      <Contact/>
+      <Contact id={'contact'}/>
       <Sponsors/>
     </div>
   )

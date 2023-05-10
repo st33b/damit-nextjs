@@ -4,7 +4,9 @@ const Hero = () => {
 
   return (
     <div className={styles.Hero}>
-      HERO (most pertinent details)
+      <p>
+        A unique tournament with Singles and Baker Doubles events.
+      </p>
     </div>
   )
 }

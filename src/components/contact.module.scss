@@ -1,3 +1,11 @@
 .Contact {
-
+  .Card {
+    text-align: center;
+    .Name {
+      font-weight: bold;
+    }
+    .Role {
+      margin-bottom: 0;
+    }
+  }
 }

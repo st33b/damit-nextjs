@@ -18,7 +18,7 @@ const Navigation = () => {
           {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
             <ul className={`navbar-nav order-lg-last`}>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#top'}>
+                <a className={`nav-link`} href={'#'}>
                   Register
                 </a>
               </li>
@@ -55,7 +55,7 @@ const Navigation = () => {
                 </a>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#dallas'}>
+                <a className={`nav-link`} href={'/dallas'}>
                   Dallas
                 </a>
               </li>
