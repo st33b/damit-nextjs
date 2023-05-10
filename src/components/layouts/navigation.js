@@ -2,7 +2,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <div className={`navbar navbar-expand-lg`}>
+      <div className={`navbar navbar-expand-md`}>
         <div className={`container-fluid`}>
           <button
             type={'button'}
@@ -16,7 +16,7 @@ const Navigation = () => {
           </button>
 
           {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
-            <ul className={`navbar-nav order-lg-last`}>
+            <ul className={`navbar-nav order-md-last`}>
               <li className={`nav-item`}>
                 <a className={`nav-link`} href={'#'}>
                   Register
@@ -26,7 +26,7 @@ const Navigation = () => {
           {/*</div>*/}
 
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
-            <ul className={`navbar-nav mb-2 mb-lg-0`}>
+            <ul className={`navbar-nav mb-2 mb-md-0`}>
               <li className={`nav-item`}>
                 <a className={`nav-link`} href={'#top'}>
                   Home

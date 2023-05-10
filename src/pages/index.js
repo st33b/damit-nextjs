@@ -16,7 +16,7 @@ const MainPage = () => {
       <Location id={'location'}/>
       <Schedule id={'schedule'}/>
       <Dallas full={false} id={'dallas'}/>
-      <RegisterCTA/>
+      {/*<RegisterCTA/>*/}
       <Contact id={'contact'}/>
       <Sponsors/>
     </div>

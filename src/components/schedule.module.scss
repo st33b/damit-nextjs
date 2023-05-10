@@ -1,3 +1,39 @@
 .Schedule {
+  margin-left: 1rem;
+  margin-right: 1rem;
 
+  h3, p {
+    text-align: center;
+  }
+  .Event {
+    margin-bottom: 1rem;
+    .Date {
+      text-align: left;
+    }
+    .Detail {
+      text-align: left;
+      p {
+        text-align: left;
+        margin-bottom: 0.5rem;
+      }
+      //.Title {
+      //  font-size: 110%;
+      //  font-weight: bold;
+      //}
+      @media(min-width: 768px) {
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .Time {
+      text-align: right;
+    }
+  }
+
+  @media(min-width: 768px) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
+

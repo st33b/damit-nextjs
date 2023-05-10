@@ -4,9 +4,9 @@ const Location = () => {
 
   return (
     <div className={styles.Location}>
-      <h5>
+      <h3>
         Plano Super Bowl
-      </h5>
+      </h3>
       <address>
         <span className={`d-block`}>
           2521 K Avenue
