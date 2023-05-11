@@ -15,7 +15,9 @@ const Contact = ({ id }) => {
             </div>
             <div className={`card-footer`}>
               <p className={`${styles.Name}`}>
-                Steven Hull
+                <a href={'mailto:damitdirectors@gmail.com?subject=About%20DAMIT'}>
+                  Steven Hull
+                </a>
               </p>
               <p className={styles.Role}>
                 Director
@@ -31,7 +33,9 @@ const Contact = ({ id }) => {
             </div>
             <div className={`card-footer`}>
               <p className={`${styles.Name}`}>
-                Scott Stebleton
+                <a href={'mailto:scott@stebleton.net?subject=Regarding%20DAMIT'}>
+                  Scott Stebleton
+                </a>
               </p>
               <p className={styles.Role}>
                 Technologist

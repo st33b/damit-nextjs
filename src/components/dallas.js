@@ -7,14 +7,14 @@ const Dallas = ({ full }) => {
 
   return (
     <section className={styles.Dallas} id={'dallas'}>
-      <h3 className={`section-heading`}>
+      <h3 className={`section-heading mt-3`}>
         Dallas, Texas
       </h3>
       <p>
         Porchetta ground round sirloin chuck, buffalo short ribs chicken beef ribs turkey tail. Bresaola doner venison shoulder strip steak tail pork belly. Corned beef rump andouille, chicken kielbasa spare ribs jowl sirloin flank salami leberkas ribeye. Pancetta salami cupim tenderloin.
       </p>
       {!full && (
-        <p>
+        <p className={styles.MoreLink}>
           <a href={'/dallas'}
              class={`btn btn-primary icon-link`}
              role={`button`}>

@@ -1,6 +1,25 @@
 .Sponsors {
   margin-top: 1rem;
   .Sponsor {
-     padding: 1rem;
+     padding: 0 1rem;
+
+     .Placeholder {
+       font-size: 450%;
+       opacity: .75;
+       width: 35vw;
+
+       @media(min-width: 768px) {
+         width: 25vw;
+       }
+     }
+
+    .Logo {
+      height: auto;
+      max-width: 70vw;
+
+      @media(min-width: 768px) {
+        max-width: 25vw;
+      }
+    }
   }
 }

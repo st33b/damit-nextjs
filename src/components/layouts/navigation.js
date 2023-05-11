@@ -6,13 +6,13 @@ const Navigation = () => {
         <div className={`container-fluid`}>
           <button
             type={'button'}
-            className={'navbar-toggler me-auto'}
+            className={'navbar-toggler'}
             data-bs-toggle={'collapse'}
             data-bs-target={'#navbarContent'}
             aria-controls={`navbarContent`}
             aria-expanded={false}
             aria-label={'Toggle navigation'}>
-            <i className={'bi-three-dots-vertical'} />
+            <i className={'bi-list'} />
           </button>
 
           {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
