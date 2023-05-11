@@ -1,5 +1,4 @@
 import Hero from "@/components/hero";
-import Title from "@/components/title";
 import Location from "@/components/location";
 import Schedule from "@/components/schedule";
 import RegisterCTA from "@/components/register_cta";
@@ -11,7 +10,6 @@ import RootLayout from "@/components/layouts/layout";
 const MainPage = () => {
   return (
     <div>
-      <Title/>
       <Hero/>
       <Location/>
       <Schedule/>

@@ -4,7 +4,10 @@ const Document = () => (
   <Html>
     <Head>
       <link
-        href={'https://fonts.googleapis.com/css2?family=Inter&display=swap'}
+        href={'https://fonts.googleapis.com/css2?family=Cabin&display=swap'}
+        rel={'stylesheet'}/>
+      <link
+        href={'https://fonts.googleapis.com/css2?family=Oswald&display=swap'}
         rel={'stylesheet'}/>
     </Head>
     <body>

@@ -2,8 +2,10 @@
 @import 'bootstrap-icons/font/bootstrap-icons.min.css';
 
 body {
+  --damit-title-font-family: Oswald, var(--damit-font-sans-serif);
+
   .navbar {
-    background-color: var(--damit-primary);
+    background-color: var(--damit-green);
     --damit-navbar-color: var(--damit-gray-100);
     --damit-navbar-hover-color: var(--damit-body-color);
     --damit-navbar-active-color: var(--damit-body-color);
@@ -16,13 +18,15 @@ body {
 
   section {
     .section-heading {
+      font-family: var(--damit-title-font-family);
+      font-variant-caps: small-caps;
       text-align: left;
       padding: 1rem 0.5rem;
       margin: 0 -1rem 1rem;
 
       @media(min-width: 768px) {
         text-align: center;
-        margin: 0 0 1rem 0;
+        //margin: 0 0 1rem 0;
       }
 
       background-color: #b2653a;

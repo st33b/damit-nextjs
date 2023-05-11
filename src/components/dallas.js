@@ -16,7 +16,7 @@ const Dallas = ({ full }) => {
       {!full && (
         <p className={styles.MoreLink}>
           <a href={'/dallas'}
-             class={`btn btn-primary icon-link`}
+             class={`icon-link icon-link-hover`}
              role={`button`}>
             More
             <i className={'bi-arrow-right'} aria-hidden={true}/>

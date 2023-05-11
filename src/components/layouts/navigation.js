@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className={`container-fluid`}>
           <button
             type={'button'}
-            className={'navbar-toggler'}
+            className={'navbar-toggler border-0'}
             data-bs-toggle={'collapse'}
             data-bs-target={'#navbarContent'}
             aria-controls={`navbarContent`}
@@ -18,7 +18,7 @@ const Navigation = () => {
           {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
             <ul className={`navbar-nav order-md-last`}>
               <li className={`nav-item`}>
-                <a className={`nav-link`}
+                <a className={`nav-link disabled`}
                    href={'#'}
                    onClick={() => {}}
                 >

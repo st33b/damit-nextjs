@@ -1,7 +1,7 @@
 $prefix: damit-;
 
 $font-family-sans-serif:
-  Inter,
+  Cabin,
   system-ui,
   -apple-system,
   "Segoe UI",
@@ -19,9 +19,12 @@ $font-family-sans-serif:
 $purple:    #6f42c1;
 $purple-bg-subtle:        tint-color($purple, 75%);
 
-$primary: $purple; // shade-color($purple, 20%);
+$green: #298648;
+//$primary: $purple;
 
-$body-bg: tint-color($purple, 80%);
+$body-bg: tint-color($purple, 85%);
+
+$link-color: #29864a;
 
 $btn-border-radius: 0;
 $card-border-radius: 0;
