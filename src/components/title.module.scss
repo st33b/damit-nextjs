@@ -1,3 +1,45 @@
 .Title {
+  position: relative;
+  margin: 0 -1rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  color: var(--damit-gray-300);
+
+  h1 {
+    font-variant-caps: small-caps;
+  }
+
+  .BackgroundWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  .BackgroundImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #123243;
+    background-position: center;
+    background-image: url('../images/dallas-downtown-750w.jpg');
+  }
+
+  @media (min-width: 768px) {
+    height: 80vh;
+    min-height: 500px;
+    max-height: 1300px;
+  }
 }
