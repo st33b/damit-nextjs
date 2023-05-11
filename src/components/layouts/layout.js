@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 export default function RootLayout({ children }) {
   return (
-    <div>
+    <div className={`container-md gx-0 gx-md-4`}>
       <Header/>
       <Navigation/>
 

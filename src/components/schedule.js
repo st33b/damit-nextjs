@@ -3,13 +3,10 @@ import styles from './schedule.module.scss';
 const Schedule = () => {
 
   return (
-    <div className={styles.Schedule}>
-      <h3>
+    <section className={styles.Schedule} id={'schedule'}>
+      <h3 className={`section-heading`}>
         Schedule of Events
       </h3>
-      <p >
-        All events held at Plano Super Bowl.
-      </p>
 
       <div className={`row ${styles.Event}`}>
         <div className={`col-sm-4 ${styles.Date}`}>
@@ -18,7 +15,7 @@ const Schedule = () => {
           </h4>
         </div>
         <div className={`col-sm-5 ${styles.Detail}`}>
-          <h5 className={`${styles.Title}`}>
+          <h5>
             Singles
           </h5>
           <p>
@@ -32,6 +29,8 @@ const Schedule = () => {
         </div>
       </div>
 
+      <hr className={`d-none d-md-block`}/>
+
       <div className={`row ${styles.Event}`}>
         <div className={`col-sm-4 ${styles.Date}`}>
           <h4>
@@ -39,7 +38,7 @@ const Schedule = () => {
           </h4>
         </div>
         <div className={`col-sm-5 ${styles.Detail}`}>
-          <h5 className={`${styles.Title}`}>
+          <h5>
             Baker Doubles
           </h5>
           <p>
@@ -53,9 +52,11 @@ const Schedule = () => {
         </div>
       </div>
 
+      <hr className={`col offset-md-4`}/>
+
       <div className={`row ${styles.Event}`}>
         <div className={`offset-sm-4 col-sm-5 ${styles.Detail}`}>
-          <h5 className={`${styles.Title}`}>
+          <h5>
             Awards Ceremony
           </h5>
           <p>
@@ -69,7 +70,7 @@ const Schedule = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 

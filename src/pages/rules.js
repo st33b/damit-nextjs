@@ -8,7 +8,6 @@ const Rules = () => {
     <div>
       <TournamentRules/>
       <Sponsors/>
-      <Footer/>
     </div>
   );
 }

@@ -1,14 +1,20 @@
 .Contact {
-  h3 {
-    text-align: center;
-  }
   .Card {
     text-align: center;
+    .Face {
+      padding: 0.5rem;
+
+      .Placeholder {
+        font-size: 450%;
+        opacity: .75;
+      }
+    }
     .Name {
       font-weight: bold;
     }
     .Role {
       margin-bottom: 0;
     }
+
   }
 }

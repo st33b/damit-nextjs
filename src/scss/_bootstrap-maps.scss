@@ -1,0 +1,12 @@
+// Miscellaneous mappings
+:root,
+[data-bs-theme="light"] {
+  --#{$prefix}purple-bg: #{$purple-bg-subtle};
+}
+
+// No dark mode colors yet...
+//@include color-mode(dark, true) {
+//  color-scheme: dark;
+//
+//  --#{$prefix}purple-bg: #{$purple-bg-subtle-dark};
+//}

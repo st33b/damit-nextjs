@@ -1,24 +1,27 @@
 const Navigation = () => {
 
   return (
-    <div>
+    <div className={`navigation`}>
       <div className={`navbar navbar-expand-md`}>
         <div className={`container-fluid`}>
           <button
             type={'button'}
             className={'navbar-toggler me-auto'}
-            data-mdb-toggle={'collapse'}
-            data-mdb-target={'#navbarContent'}
+            data-bs-toggle={'collapse'}
+            data-bs-target={'#navbarContent'}
             aria-controls={`navbarContent`}
             aria-expanded={false}
             aria-label={'Toggle navigation'}>
-            <i className={'fas fa-bars'} />
+            <i className={'bi-three-dots-vertical'} />
           </button>
 
           {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
             <ul className={`navbar-nav order-md-last`}>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#'}>
+                <a className={`nav-link`}
+                   href={'#'}
+                   onClick={() => {}}
+                >
                   Register
                 </a>
               </li>
@@ -28,12 +31,12 @@ const Navigation = () => {
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
             <ul className={`navbar-nav mb-2 mb-md-0`}>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#top'}>
+                <a className={`nav-link`} href={'/#top'}>
                   Home
                 </a>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#schedule'}>
+                <a className={`nav-link`} href={'/#schedule'}>
                   Schedule
                 </a>
               </li>
@@ -45,12 +48,12 @@ const Navigation = () => {
               {/* ****** */}
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#location'}>
+                <a className={`nav-link`} href={'/#location'}>
                   Bowling Center
                 </a>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'#contact'}>
+                <a className={`nav-link`} href={'/#contact'}>
                   Contact
                 </a>
               </li>

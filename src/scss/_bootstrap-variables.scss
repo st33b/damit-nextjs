@@ -1,0 +1,28 @@
+$prefix: damit-;
+
+$font-family-sans-serif:
+  Inter,
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  "Noto Sans",
+  "Liberation Sans",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji";
+
+$purple:    #6f42c1;
+$purple-bg-subtle:        tint-color($purple, 75%);
+
+$primary: $purple; // shade-color($purple, 20%);
+
+$body-bg: tint-color($purple, 80%);
+
+$btn-border-radius: 0;
+$card-border-radius: 0;
+$card-border-width: 0;

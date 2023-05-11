@@ -1,17 +1,17 @@
 import styles from './contact.module.scss';
 
-const Contact = () => {
+const Contact = ({ id }) => {
 
   return (
-    <div className={styles.Contact}>
-      <h3>
+    <section className={styles.Contact} id={'contact'}>
+      <h3 className={`section-heading`}>
         Contacts
       </h3>
       <div className={`row justify-content-center`}>
         <div className={`col-6 col-md-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
-            <div className={`card-body`}>
-              <i className={`fas  fa-4x fa-user`}/>
+            <div className={`card-body ${styles.Face}`}>
+              <i className={`bi-person-workspace ${styles.Placeholder}`}/>
             </div>
             <div className={`card-footer`}>
               <p className={`${styles.Name}`}>
@@ -26,8 +26,8 @@ const Contact = () => {
 
         <div className={`col-6 col-md-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
-            <div className={`card-body`}>
-              <i className={`fas fa-4x fa-user`}/>
+            <div className={`card-body ${styles.Face}`}>
+              <i className={`bi-person-workspace ${styles.Placeholder}`}/>
             </div>
             <div className={`card-footer`}>
               <p className={`${styles.Name}`}>
@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

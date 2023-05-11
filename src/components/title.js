@@ -6,7 +6,7 @@ import styles from './title.module.scss';
 const Title = () => {
 
   return (
-    <div className={styles.Title}>
+    <section className={styles.Title} id={'top'}>
       <Image src={damitLogo}
              alt={'Tournament logo'}
              className={`w-100 h-auto`}
@@ -25,7 +25,7 @@ const Title = () => {
       <h3>
         October 7-8, 2023
       </h3>
-    </div>
+    </section>
   )
 }
 

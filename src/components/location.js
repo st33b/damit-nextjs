@@ -3,10 +3,13 @@ import styles from './location.module.scss';
 const Location = () => {
 
   return (
-    <div className={styles.Location}>
-      <h3>
-        Plano Super Bowl
+    <section className={styles.Location} id={'location'}>
+      <h3 className={`section-heading`}>
+        Bowling House
       </h3>
+      <h4>
+        Plano Super Bowl
+      </h4>
       <address>
         <span className={`d-block`}>
           2521 K Avenue
@@ -15,7 +18,7 @@ const Location = () => {
           Plano, TX 75074
         </span>
         <span className={`d-block`}>
-          <i className={`fas fa-phone me-2`} aria-hidden={true}/>
+          <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
           <a href={`tel:9728810242`}>
             972-881-0242
           </a>
@@ -27,7 +30,7 @@ const Location = () => {
           allowFullScreen="" loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
-    </div>
+    </section>
   )
 }
 

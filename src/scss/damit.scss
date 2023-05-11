@@ -1,0 +1,43 @@
+@import 'damit-bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
+body {
+  .navbar {
+    background-color: var(--damit-primary);
+    --damit-navbar-color: var(--damit-gray-100);
+    --damit-navbar-hover-color: var(--damit-body-color);
+    --damit-navbar-active-color: var(--damit-body-color);
+
+    .nav-item:hover {
+      background-color: var(--damit-primary-bg-subtle);
+      opacity: .6;
+    }
+  }
+
+  section {
+    .section-heading {
+      text-align: left;
+      padding: 1rem 0.5rem;
+      margin: 0 -1rem 1rem;
+
+      @media(min-width: 768px) {
+        text-align: center;
+        margin: 0 0 1rem 0;
+      }
+
+      background-color: #b2653a;
+      color: var(--damit-gray-100);
+    }
+
+    margin: 0 1rem;
+  }
+
+  footer {
+    text-align: center;
+    opacity: .75;
+    p {
+      font-size: 90%;
+      margin: 1rem 0;
+    }
+  }
+}

@@ -11,13 +11,13 @@ import RootLayout from "@/components/layouts/layout";
 const MainPage = () => {
   return (
     <div>
-      <Title id={'top'}/>
+      <Title/>
       <Hero/>
-      <Location id={'location'}/>
-      <Schedule id={'schedule'}/>
-      <Dallas full={false} id={'dallas'}/>
+      <Location/>
+      <Schedule/>
+      <Dallas full={false}/>
       {/*<RegisterCTA/>*/}
-      <Contact id={'contact'}/>
+      <Contact/>
       <Sponsors/>
     </div>
   )
