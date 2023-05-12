@@ -1,4 +1,5 @@
 import styles from './dallas.module.scss';
+import Link from "next/link";
 
 const Dallas = ({ full }) => {
   // full determines whether we show a summary or the whole shebang
@@ -10,17 +11,23 @@ const Dallas = ({ full }) => {
       <h3 className={`section-heading mt-3`}>
         Dallas, Texas
       </h3>
+
+      <div className={styles.JumboImage}>
+        <div className={`${styles.BackgroundColor} ${styles.DowntownDaytimeColor}`}  />
+        <div className={`${styles.BackgroundImage} ${styles.DowntownDaytimeImage}`} />
+      </div>
+
       <p>
-        Porchetta ground round sirloin chuck, buffalo short ribs chicken beef ribs turkey tail. Bresaola doner venison shoulder strip steak tail pork belly. Corned beef rump andouille, chicken kielbasa spare ribs jowl sirloin flank salami leberkas ribeye. Pancetta salami cupim tenderloin.
+        Meat! Porchetta ground round sirloin chuck, buffalo short ribs chicken beef ribs turkey tail. Bresaola doner venison shoulder strip steak tail pork belly. Corned beef rump andouille, chicken kielbasa spare ribs jowl sirloin flank salami leberkas ribeye. Pancetta salami cupim tenderloin.
       </p>
       {!full && (
         <p className={styles.MoreLink}>
-          <a href={'/dallas'}
+          <Link href={'/dallas'}
              class={`icon-link icon-link-hover`}
              role={`button`}>
             More
             <i className={'bi-arrow-right'} aria-hidden={true}/>
-          </a>
+          </Link>
         </p>
       )}
       {full && (
