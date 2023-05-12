@@ -1,3 +1,6 @@
+import logo from '@/images/beaver_head.png';
+import Image from "next/image";
+
 const Navigation = () => {
 
   return (
@@ -15,24 +18,27 @@ const Navigation = () => {
             <i className={'bi-list'} />
           </button>
 
-          {/*<div className={`d-flex flex-grow-1 align-items-center`}>*/}
-            <ul className={`navbar-nav order-md-last`}>
-              <li className={`nav-item`}>
-                <a className={`nav-link disabled`}
-                   href={'#'}
-                   onClick={() => {}}
-                >
-                  Register
-                </a>
-              </li>
-            </ul>
-          {/*</div>*/}
+          <ul className={`navbar-nav order-md-last`}>
+            <li className={`nav-item`} title={'Registration is not yet open'}>
+              <a className={`nav-link disabled`}
+                 href={'#'}
+                 onClick={() => {}}
+              >
+                Register
+              </a>
+            </li>
+          </ul>
 
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
             <ul className={`navbar-nav mb-2 mb-md-0`}>
               <li className={`nav-item`}>
                 <a className={`nav-link`} href={'/#top'}>
                   Home
+                </a>
+              </li>
+              <li className={`nav-item`}>
+                <a className={`nav-link`} href={'/#location'}>
+                  Bowling Center
                 </a>
               </li>
               <li className={`nav-item`}>
@@ -48,18 +54,13 @@ const Navigation = () => {
               {/* ****** */}
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/#location'}>
-                  Bowling Center
+                <a className={`nav-link`} href={'/dallas'}>
+                  Dallas
                 </a>
               </li>
               <li className={`nav-item`}>
                 <a className={`nav-link`} href={'/#contact'}>
                   Contact
-                </a>
-              </li>
-              <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/dallas'}>
-                  Dallas
                 </a>
               </li>
             </ul>

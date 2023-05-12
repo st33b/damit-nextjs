@@ -4,15 +4,33 @@
 body {
   --damit-title-font-family: Oswald, var(--damit-font-sans-serif);
 
-  .navbar {
-    background-color: var(--damit-green);
-    --damit-navbar-color: var(--damit-gray-100);
-    --damit-navbar-hover-color: var(--damit-body-color);
-    --damit-navbar-active-color: var(--damit-body-color);
+  .navigation {
 
-    .nav-item:hover {
-      background-color: var(--damit-primary-bg-subtle);
-      opacity: .6;
+    .navbar {
+      background-color: var(--damit-green);
+      --damit-navbar-color: var(--damit-gray-100);
+      --damit-navbar-hover-color: var(--damit-body-color);
+      --damit-navbar-active-color: var(--damit-body-color);
+
+      .nav-item:hover {
+        background-color: var(--damit-primary-bg-subtle);
+        opacity: .6;
+      }
+
+      //.home-link {
+      //  height: 2rem;
+      //}
+
+      @media (min-width: 768px) {
+        background-image: url('../images/beaver_head.png');
+        background-repeat: no-repeat;
+        background-position: 1rem 0;
+        background-size: contain;
+
+        #navbarContent {
+          margin-left: 6rem;
+        }
+      }
     }
   }
 
