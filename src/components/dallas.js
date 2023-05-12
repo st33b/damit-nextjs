@@ -5,6 +5,7 @@ import Image from "next/image";
 import bigTex from '@/images/dallas/big-tex.jpeg';
 import sportsBalls from '@/images/dallas/sports-balls.jpg';
 import texMex from '@/images/dallas/tex-mex.jpg';
+import sunshine from '@/images/dallas/sun-rays.jpg';
 
 const Dallas = ({full}) => {
   // full determines whether we show a summary or the whole shebang
@@ -21,11 +22,19 @@ const Dallas = ({full}) => {
         <div className={`${styles.BackgroundColor} ${styles.DowntownDaytimeColor}`}/>
         <div className={`${styles.BackgroundImage} ${styles.DowntownDaytimeImage}`}/>
       </div>
+      <div className={`${styles.Credit}`}>
+        Image via{' '}
+        <a href={'https://www.pexels.com/photo/architecture-buildings-business-city-280193/'}
+           target={'_blank'}>
+          Pixabay
+        </a>
+      </div>
 
-      <p>
+      <p className={'mt-3'}>
         Home to the Texas State Fair, the Perot Museum of Nature and Science, and more professional sports teams than you can shake a hockey stick at, Dallas&mdash;not just Dallas itself, but the whole Dallas-Ft. Worth
         metroplex&mdash;has something to offer for everyone.
       </p>
+
       {!full && (
         <p className={styles.MoreLink}>
           <Link href={'/dallas'}
@@ -40,31 +49,48 @@ const Dallas = ({full}) => {
         <div className={'row'}>
           <div className={`${styles.Thing} card col-12 col-md-8 col-xl-6 `}>
             <div className={'row g-0'}>
-              <div className={'col-sm-4'}>
-                <div className={`${styles.Image}`}>
-                  <Image src={sportsBalls}
-                         alt={'Sports balls'}
-                         className={'img-fluid'}
-                         sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
+              <div className={`col-sm-4 d-flex flex-column`}>
+                <div className={`${styles.FlippyImage} flex-grow-1`}>
+                  <Image src={sunshine}
+                         alt={'The sun shining in a partly cloudy sky'}
+                         className={`${styles.Img}`}
+                         sizes={'(max-width: 575px) 90vw, (max-width: 767px) 50vw, (max-width: 1199px) 20vw (min-width: 1200px) 15vw'}
                   />
                 </div>
                 <div className={`${styles.Credit}`}>
-                  Image via{' '}
-                  <a href={'https://www.peakpx.com/455682/football-basketball-and-soccer-ball-lot'}
+                  Image by{' '}
+                  <a href={'https://www.pexels.com/photo/white-clouds-on-sky-3768/'}
                      target={'_blank'}>
-                    PeakPx
+                    Skitterphoto
                   </a>
                 </div>
               </div>
               <div className={'col-sm-8'}>
-                <div className={'card-body'}>
+                <div className={`card-body ${styles.CardBody}`}>
                   <div className={'card-title'}>
                     <h4>
                       Weather
                     </h4>
                   </div>
                   <p>
-                    It doesn&apos;t get much more pleasant outside than Dallas in October. The summer heat and humidity have receded, and the coolness of winter is still many weeks away. Let&apos;s just say there&apos;s a reason the Texas State Fair happens in October!
+                    It doesn&apos;t get much more pleasant outside than Dallas in October. The summer heat and humidity have receded, and the coolness of winter is still many weeks away.
+                  </p>
+                  <p>
+                    <span className={'d-block'}>
+                      Average high:{' '}
+                      <span className={styles.HighTemp}>
+                        80&deg;F (27&deg;C)
+                      </span>
+                    </span>
+                    <span className={'d-block'}>
+                      Average low:{' '}
+                      <span className={styles.LowTemp}>
+                        59&deg;F (15&deg;C)
+                      </span>
+                    </span>
+                  </p>
+                  <p>
+                    Let&apos;s just say there&apos;s a reason the Texas State Fair happens in October!
                   </p>
                 </div>
               </div>
@@ -76,7 +102,7 @@ const Dallas = ({full}) => {
             <div className={`${styles.Image}`}>
               <Image src={bigTex}
                      alt={'Big Tex'}
-                     className={'img-fluid'}
+                     className={`${styles.Img}`}
                      sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
               />
             </div>
@@ -87,7 +113,7 @@ const Dallas = ({full}) => {
                 Steve Rainwater
               </a>
             </div>
-            <div className={'card-body'}>
+            <div className={`card-body ${styles.CardBody}`}>
               <div className={'card-title'}>
                 <h4>
                   The Texas State Fair
@@ -113,7 +139,7 @@ const Dallas = ({full}) => {
             <div className={`${styles.Image}`}>
               <Image src={sportsBalls}
                      alt={'Sports balls'}
-                     className={'img-fluid'}
+                     className={`${styles.Img}`}
                      sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
               />
             </div>
@@ -124,7 +150,7 @@ const Dallas = ({full}) => {
                 PeakPx
               </a>
             </div>
-            <div className={'card-body'}>
+            <div className={`card-body ${styles.CardBody}`}>
               <div className={'card-title'}>
                 <h4>
                   OMG Sports!
@@ -140,18 +166,18 @@ const Dallas = ({full}) => {
             <div className={`${styles.Image}`}>
               <Image src={texMex}
                      alt={'Tex-Mex food'}
-                     className={'img-fluid'}
+                     className={`${styles.Img}`}
                      sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
               />
             </div>
             <div className={`${styles.Credit}`}>
-              Image by{' '}
+              Image via{' '}
               <a href={'https://pxhere.com/en/photo/1622599'}
                  target={'_blank'}>
                 PxHere
               </a>
             </div>
-            <div className={'card-body'}>
+            <div className={`card-body ${styles.CardBody}`}>
               <div className={'card-title'}>
                 <h4>
                   Food! Glorious Food!
