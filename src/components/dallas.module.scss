@@ -1,4 +1,23 @@
 .Dallas {
+  .BackgroundColor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .BackgroundImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+    background-size: cover;
+  }
   .JumboImage {
     position: relative;
     margin-bottom: 1rem;
@@ -11,29 +30,10 @@
       min-height: 400px;
     }
 
-    .BackgroundColor {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
     .DowntownDaytimeColor {
       background-color: #2962ad;
     }
 
-    .BackgroundImage {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: 0;
-      background-repeat: no-repeat;
-      background-position: 0 25%;
-      background-size: cover;
-    }
     .DowntownDaytimeImage {
       background-image: url('../images/downtown-daytime-750w.jpeg');
       @media (min-width: 768px) {
@@ -41,6 +41,26 @@
       }
     }
   }
+
+  .Thing {
+    margin-bottom: 1rem;
+    h4 {
+      text-align: center;
+    }
+    .Image {
+      max-height: 10rem;
+      overflow: hidden;
+    }
+    .Credit {
+      text-align: center;
+      font-size: 80%;
+      opacity: 80%;
+    }
+    .ExternalLink {
+
+    }
+  }
+
   .MoreLink {
     text-align: right;
   }
