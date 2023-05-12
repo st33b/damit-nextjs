@@ -18,7 +18,7 @@ const Dallas = ({ full }) => {
       </div>
 
       <p>
-        Porchetta ground round sirloin chuck, buffalo short ribs chicken beef ribs turkey tail. Bresaola doner venison shoulder strip steak tail pork belly. Corned beef rump andouille, chicken kielbasa spare ribs jowl sirloin flank salami leberkas ribeye. Pancetta salami cupim tenderloin.
+        Meat! Porchetta ground round sirloin chuck, buffalo short ribs chicken beef ribs turkey tail. Bresaola doner venison shoulder strip steak tail pork belly. Corned beef rump andouille, chicken kielbasa spare ribs jowl sirloin flank salami leberkas ribeye. Pancetta salami cupim tenderloin.
       </p>
       {!full && (
         <p className={styles.MoreLink}>
