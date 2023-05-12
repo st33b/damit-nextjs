@@ -47,9 +47,9 @@ const Dallas = ({full}) => {
       )}
       {full && (
         <div className={'row'}>
-          <div className={`${styles.Thing} card col-12 col-md-8 col-xl-6 `}>
+          <div className={`${styles.Thing} card col-12 col-md-6 col-lg-4`}>
             <div className={'row g-0'}>
-              <div className={`col-sm-4 d-flex flex-column`}>
+              <div className={`col-sm-4 d-flex flex-column col-md-12`}>
                 <div className={`${styles.FlippyImage} flex-grow-1`}>
                   <Image src={sunshine}
                          alt={'The sun shining in a partly cloudy sky'}
@@ -65,7 +65,7 @@ const Dallas = ({full}) => {
                   </a>
                 </div>
               </div>
-              <div className={'col-sm-8'}>
+              <div className={'col-sm-8 col-md-12'}>
                 <div className={`card-body ${styles.CardBody}`}>
                   <div className={'card-title'}>
                     <h4>
@@ -89,16 +89,15 @@ const Dallas = ({full}) => {
                       </span>
                     </span>
                   </p>
-                  <p>
-                    Let&apos;s just say there&apos;s a reason the Texas State Fair happens in October!
-                  </p>
+                  {/*<p>*/}
+                  {/*  Let&apos;s just say there&apos;s a reason the Texas State Fair happens in October!*/}
+                  {/*</p>*/}
                 </div>
               </div>
             </div>
           </div>
 
-
-          <div className={`${styles.Thing} card col-12 col-sm-6 col-md-4 col-xl-3`}>
+          <div className={`${styles.Thing} card col-12 col-sm-6 col-lg-4`}>
             <div className={`${styles.Image}`}>
               <Image src={bigTex}
                      alt={'Big Tex'}
@@ -135,7 +134,7 @@ const Dallas = ({full}) => {
             </div>
           </div>
 
-          <div className={`${styles.Thing} card col-12 col-sm-6 col-md-4 col-xl-3`}>
+          <div className={`${styles.Thing} card col-12 col-sm-6 col-lg-4`}>
             <div className={`${styles.Image}`}>
               <Image src={sportsBalls}
                      alt={'Sports balls'}
@@ -162,7 +161,7 @@ const Dallas = ({full}) => {
             </div>
           </div>
 
-          <div className={`${styles.Thing} card col-12 col-sm-6 col-md-4 col-xl-3`}>
+          <div className={`${styles.Thing} card col-12 col-sm-6 col-sm-6 col-lg-4`}>
             <div className={`${styles.Image}`}>
               <Image src={texMex}
                      alt={'Tex-Mex food'}

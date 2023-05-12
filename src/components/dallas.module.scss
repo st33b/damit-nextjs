@@ -67,6 +67,9 @@
       @media (min-width: 576px) {
         max-height: none;
       }
+      @media (min-width: 768px) {
+        max-height: 10rem;
+      }
 
       .Img {
         width: 100%;
