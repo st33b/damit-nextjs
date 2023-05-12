@@ -6,7 +6,6 @@ const AboutDallas = () => {
   return (
     <div>
       <Dallas full={true}/>
-      <Sponsors/>
     </div>
   );
 }

@@ -1,5 +1,4 @@
-import logo from '@/images/beaver_head.png';
-import Image from "next/image";
+import Link from "next/link";
 
 const Navigation = () => {
 
@@ -32,36 +31,34 @@ const Navigation = () => {
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
             <ul className={`navbar-nav mb-2 mb-md-0`}>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/#top'}>
+                <Link className={`nav-link`} href={'/#top'}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/#location'}>
+                <Link className={`nav-link`} href={'/#location'}>
                   Bowling Center
-                </a>
+                </Link>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/#schedule'}>
+                <Link className={`nav-link`} href={'/#schedule'}>
                   Schedule
-                </a>
+                </Link>
               </li>
               <li className={`nav-item`}>
-                {/* What does Next Router want us to do with this? */}
-                <a className={`nav-link`} href={'/rules'}>
+                <Link className={`nav-link`} href={'/rules'}>
                   Rules
-                </a>
-              {/* ****** */}
+                </Link>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/dallas'}>
+                <Link className={`nav-link`} href={'/dallas'}>
                   Dallas
-                </a>
+                </Link>
               </li>
               <li className={`nav-item`}>
-                <a className={`nav-link`} href={'/#contact'}>
+                <Link className={`nav-link`} href={'/#contact'}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

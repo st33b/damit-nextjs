@@ -1,4 +1,46 @@
 .Dallas {
+  .JumboImage {
+    position: relative;
+    margin-bottom: 1rem;
+
+    height: 20vh;
+    min-height: 150px;
+    max-height: 400px;
+    @media (min-width: 768px) {
+      height: 40vh;
+      min-height: 400px;
+    }
+
+    .BackgroundColor {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    .DowntownDaytimeColor {
+      background-color: #2962ad;
+    }
+
+    .BackgroundImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      background-repeat: no-repeat;
+      background-position: 0 25%;
+      background-size: cover;
+    }
+    .DowntownDaytimeImage {
+      background-image: url('../images/downtown-daytime-750w.jpeg');
+      @media (min-width: 768px) {
+        background-image: url('../images/downtown-daytime.jpeg');
+      }
+    }
+  }
   .MoreLink {
     text-align: right;
   }
