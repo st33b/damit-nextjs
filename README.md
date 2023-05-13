@@ -3,30 +3,28 @@
 
 It's built as a static website using the [Next.js](http://nextjs.org) framework and was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-It's also the project I'm using to familiarize myself with [Material Design](https://mui.com), first via [MDB](https://mdbootstrap.com) using Bootstrap 5+.
-
 This will be fleshed out once the website is deployed.
 
 ## Info we need
 
-- Logo / branding
-  - Theme color: "electric purple" -- #958cba and #7c72a6
-- High-level overview
+- ~~Logo / branding~~
+  - ~~Theme color: "electric purple" -- #958cba and #7c72a6~~
+- ~~High-level overview~~
 - What makes DAMIT different
-- Link to registration
+- ~~Link to registration~~
 - Schedule
-- Bowling House
-- Map
-- Host Hotel? (probably not)
-- Dallas (info about the city, for visitors)
-- Rules
-- Contacts
+- ~~Bowling House~~
+- ~~Map~~
+- ~~Host Hotel? (probably not)~~
+- ~~Dallas (info about the city, for visitors)~~
+- ~~Rules~~
+- ~~Contacts~~
 - Results
 - Interesting / Useful links (other IGBO tournaments, local leagues)
 
 ## Strategy
 
-- Put it all on a single page, except for the rules, which shall live on their own
+- Put it all on a single page, except for the rules and Dallas details, which shall live on their own
 - Have a nav bar for each section
   - Clicking a nav item scrolls you to that item
   - Nav is always visible (sticky on desktop; menu button/bar is sticky on small viewports)
