@@ -41,7 +41,7 @@ const Dallas = ({full}) => {
                 class={`icon-link icon-link-hover`}
                 role={`button`}>
             More
-            <i className={'bi-arrow-right'} aria-hidden={true}/>
+            <i className={'bi bi-arrow-right align-self-baseline'} aria-hidden={true}/>
           </Link>
         </p>
       )}
@@ -89,9 +89,6 @@ const Dallas = ({full}) => {
                       </span>
                     </span>
                   </p>
-                  {/*<p>*/}
-                  {/*  Let&apos;s just say there&apos;s a reason the Texas State Fair happens in October!*/}
-                  {/*</p>*/}
                 </div>
               </div>
             </div>
@@ -126,37 +123,9 @@ const Dallas = ({full}) => {
               </p>
               <p>
                 <a href={'https://bigtex.com/'}
-                   className={styles.ExternalLink}
                    target={'_blank'}>
                   Check it out
                 </a>
-              </p>
-            </div>
-          </div>
-
-          <div className={`${styles.Thing} card col-12 col-sm-6 col-lg-4`}>
-            <div className={`${styles.Image}`}>
-              <Image src={sportsBalls}
-                     alt={'Sports balls'}
-                     className={`${styles.Img}`}
-                     sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
-              />
-            </div>
-            <div className={`${styles.Credit}`}>
-              Image via{' '}
-              <a href={'https://www.peakpx.com/455682/football-basketball-and-soccer-ball-lot'}
-                 target={'_blank'}>
-                PeakPx
-              </a>
-            </div>
-            <div className={`card-body ${styles.CardBody}`}>
-              <div className={'card-title'}>
-                <h4>
-                  OMG Sports!
-                </h4>
-              </div>
-              <p>
-                October is prime season for football, baseball (well, the playoffs, at least), basketball, hockey, soccer (the <em>real</em> football!). No matter which team you root for or which sport you enjoy the most, you&apos;re sure to find a game or match to cheer or jeer at!
               </p>
             </div>
           </div>
@@ -187,45 +156,66 @@ const Dallas = ({full}) => {
               </p>
               <ul>
                 <li>
-                  <a href={'#'}
-                     target={'_blank'}
-                     className={styles.ExternalLink}>
-                    Restaurant
+                  <a href={'https://unclejulios.com'}
+                     target={'_blank'}>
+                    Uncle Julio&apos;s
                   </a>
                 </li>
                 <li>
-                  <a href={'#'}
-                     target={'_blank'}
-                     className={styles.ExternalLink}>
-                    Restaurant
+                  <a href={'https://gloriascuisine.com'}
+                     target={'_blank'}>
+                    Gloria&apos;s Latin Cuisine
                   </a>
                 </li>
                 <li>
-                  <a href={'#'}
-                     target={'_blank'}
-                     className={styles.ExternalLink}>
-                    Restaurant
+                  <a href={'https://www.iamaflowerchild.com/'}
+                     target={'_blank'}>
+                    Flower Child
                   </a>
                 </li>
                 <li>
-                  <a href={'#'}
-                     target={'_blank'}
-                     className={styles.ExternalLink}>
-                    Restaurant
+                  <a href={'https://www.burntbbqandtacos.com/'}
+                     target={'_blank'}>
+                    Burnt Bbq &amp; Tacos
                   </a>
                 </li>
                 <li>
-                  <a href={'#'}
-                     target={'_blank'}
-                     className={styles.ExternalLink}>
-                    Restaurant
+                  <a href={'https://www.arthursdallas.com/'}
+                     target={'_blank'}>
+                    Arthur&apos;s Steakhouse
                   </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/*</div>*/}
+          <div className={`${styles.Thing} card col-12 col-sm-6 col-lg-4`}>
+            <div className={`${styles.Image}`}>
+              <Image src={sportsBalls}
+                     alt={'Sports balls'}
+                     className={`${styles.Img}`}
+                     sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
+              />
+            </div>
+            <div className={`${styles.Credit}`}>
+              Image via{' '}
+              <a href={'https://www.peakpx.com/455682/football-basketball-and-soccer-ball-lot'}
+                 target={'_blank'}>
+                PeakPx
+              </a>
+            </div>
+            <div className={`card-body ${styles.CardBody}`}>
+              <div className={'card-title'}>
+                <h4>
+                  OMG Sports!
+                </h4>
+              </div>
+              <p>
+                October is prime season for football, baseball (well, the playoffs, at least), basketball, hockey, soccer (the <em>real</em> football!). No matter which team you root for or which sport you enjoy the most, you&apos;re sure to find a game or match to cheer or jeer at!
+              </p>
+            </div>
+          </div>
+
         </div>
       )}
     </section>

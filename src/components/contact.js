@@ -1,5 +1,8 @@
 import styles from './contact.module.scss';
 
+import scott from '@/images/scott.jpg';
+import Image from "next/image";
+
 const Contact = ({ id }) => {
 
   return (
@@ -8,12 +11,12 @@ const Contact = ({ id }) => {
         Contacts
       </h3>
       <div className={`row justify-content-center`}>
-        <div className={`col-6 col-md-4 col-lg-3`}>
+        <div className={`col-5 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
             <div className={`card-body ${styles.Face}`}>
               <i className={`bi-person-workspace ${styles.Placeholder}`}/>
             </div>
-            <div className={`card-footer`}>
+            <div className={`card-body`}>
               <p className={`${styles.Name}`}>
                 <a href={'mailto:damitdirectors@gmail.com?subject=About%20DAMIT'}>
                   Steven Hull
@@ -26,12 +29,13 @@ const Contact = ({ id }) => {
           </div>
         </div>
 
-        <div className={`col-6 col-md-4 col-lg-3`}>
+        <div className={`col-5 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
-            <div className={`card-body ${styles.Face}`}>
-              <i className={`bi-person-workspace ${styles.Placeholder}`}/>
-            </div>
-            <div className={`card-footer`}>
+            <Image src={scott}
+                   alt={'Cartoon image of Scott'}
+                   className={'img-fluid card-img-top'}
+            />
+            <div className={`card-body`}>
               <p className={`${styles.Name}`}>
                 <a href={'mailto:scott@stebleton.net?subject=Regarding%20DAMIT'}>
                   Scott Stebleton
