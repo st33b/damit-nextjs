@@ -1,4 +1,10 @@
 .Location {
+  .Logo {
+    [data-bs-theme='dark'] & {
+      background-color: var(--damit-gray-500);
+      opacity: .75;
+    }
+  }
   .Map {
     margin-bottom: 1rem;
   }

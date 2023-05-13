@@ -14,10 +14,14 @@ body {
       }
 
       @media (min-width: 992px) {
-        background-image: url('../images/beaver_head.png');
+        background-image: url('../images/beaver-head.png');
         background-repeat: no-repeat;
         background-position: 1rem 0;
         background-size: contain;
+
+        [data-bs-theme='dark'] & {
+          background-image: url('../images/beaver-head-dimmed.png');
+        }
 
         #navbarContent {
           margin-left: 6rem;

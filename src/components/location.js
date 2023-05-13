@@ -15,7 +15,7 @@ const Location = () => {
              target={'_blank'}>
             <Image src={psbLogo}
                    alt={'Logo for Plano Super Bowl'}
-                   className={`w-100 h-auto`}
+                   className={`w-100 h-auto ${styles.Logo}`}
             />
           </a>
         </div>
