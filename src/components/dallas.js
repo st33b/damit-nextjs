@@ -38,7 +38,7 @@ const Dallas = ({full}) => {
       {!full && (
         <p className={styles.MoreLink}>
           <Link href={'/dallas'}
-                class={`icon-link icon-link-hover`}
+                className={`icon-link icon-link-hover`}
                 role={`button`}>
             More
             <i className={'bi bi-arrow-right align-self-baseline'} aria-hidden={true}/>

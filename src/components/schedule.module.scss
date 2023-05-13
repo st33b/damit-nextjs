@@ -12,6 +12,10 @@
         margin: 0 -1rem;
         background-color: var(--damit-purple);
         color: var(--damit-gray-100);
+
+        [data-bs-theme='dark'] & {
+          color: var(--damit-gray-400);
+        }
       }
     }
     .Detail {

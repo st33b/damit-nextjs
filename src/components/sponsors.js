@@ -1,6 +1,6 @@
 import Image from "next/image";
 import igbo from '@/images/sponsors/igbo600w.png';
-import storm from '@/images/sponsors/storm.png';
+import storm from '@/images/sponsors/storm-black.png';
 
 import styles from './sponsors.module.scss';
 
