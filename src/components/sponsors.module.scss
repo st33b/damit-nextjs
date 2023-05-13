@@ -1,25 +1,23 @@
 .Sponsors {
   margin-top: 1rem;
   .Sponsor {
-     padding: 0 1rem 1rem;
-
-     .Placeholder {
-       font-size: 450%;
-       opacity: .75;
-       width: 35vw;
-
-       @media(min-width: 768px) {
-         width: 20vw;
-       }
-     }
-
     .Logo {
       height: auto;
-      max-width: 38vw;
+      max-width: 40vw;
+      padding: 1rem;
+      margin: 0 0.5rem;
 
       @media(min-width: 768px) {
-        max-width: 21vw;
+        max-width: 30vw;
+        [data-bs-theme='dark'] & {
+          padding: 2rem;
+        }
+      }
+
+      [data-bs-theme='dark'] & {
+        background-color: var(--damit-gray-500);
       }
     }
   }
+
 }

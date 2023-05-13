@@ -16,22 +16,36 @@ $font-family-sans-serif:
   "Segoe UI Symbol",
   "Noto Color Emoji";
 
+// Color overrides
 $purple:    #6f42c1;
-$purple-bg-subtle:        tint-color($purple, 75%);
+$purple-dark: shade-color($purple, 40%);
+$purple-bg-subtle:      tint-color($purple, 75%);
+$purple-bg-subtle-dark: shade-color($purple, 80%);
 
 $green: #298648;
+$green-bg-subtle: shade-color($green, 20%);
+$green-bg-subtle-dark: shade-color($green, 60%);
+
+$burnt-orange: #b2653a;
+$burnt-orange-dark: shade-color($burnt-orange, 40%);
+
 //$primary: $purple;
 
 $body-bg: tint-color($purple, 85%);
+$link-color: $green;
 
-$link-color: #29864a;
+// Dark mode color overrides
+$body-bg-dark: shade-color($purple, 80%);
+$link-color-dark: $green;
 
-$btn-border-radius: 0;
-$card-border-radius: 0;
-$card-border-width: 0;
+// Miscellaneous overrides
+$font-size-root: 18px; // Make text a bit bigger than default
+
+$btn-border-radius: 0; // Square corners on buttons
+$card-border-radius: 0; // Square corners on cards
+$card-border-width: 0; // No borders on cards
 
 $navbar-brand-padding-y: 0;
 
 $icon-link-icon-size: 0.75em;
 
-$font-size-root: 18px;

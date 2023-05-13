@@ -7,7 +7,6 @@ const Rules = () => {
   return (
     <div>
       <TournamentRules/>
-      <Sponsors/>
     </div>
   );
 }

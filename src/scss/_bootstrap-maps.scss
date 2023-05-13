@@ -2,11 +2,28 @@
 :root,
 [data-bs-theme="light"] {
   --#{$prefix}purple-bg: #{$purple-bg-subtle};
+  --#{$prefix}green-bg-subtle: #{$green-bg-subtle};
+  --#{$prefix}section-heading-bg: #{$burnt-orange};
+
+  .navbar {
+    --#{$prefix}navbar-color: #{$gray-300};
+    --#{$prefix}navbar-hover-color: #{$gray-100};
+    --#{$prefix}navbar-active-color: #{$gray-100};
+  }
 }
 
-// No dark mode colors yet...
-//@include color-mode(dark, true) {
-//  color-scheme: dark;
-//
-//  --#{$prefix}purple-bg: #{$purple-bg-subtle-dark};
-//}
+// dark colors!
+@include color-mode(dark, true) {
+  color-scheme: dark;
+
+  --#{$prefix}purple: #{$purple-dark};
+  --#{$prefix}purple-bg: #{$purple-bg-subtle-dark};
+  --#{$prefix}green-bg-subtle: #{$green-bg-subtle-dark};
+  --#{$prefix}section-heading-bg: #{$burnt-orange-dark};
+
+  .navbar {
+    --#{$prefix}navbar-color: #{$gray-400};
+    --#{$prefix}navbar-hover-color: #{$body-color};
+    --#{$prefix}navbar-active-color: #{$body-color};
+  }
+}

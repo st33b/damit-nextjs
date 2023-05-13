@@ -1,5 +1,5 @@
-import logo from '../../images/damit.png';
 import Image from "next/image";
+import logo from '../../images/damit.png';
 
 const Footer = () => {
 
@@ -8,10 +8,12 @@ const Footer = () => {
       <hr />
       <Image src={logo}
              alt={'DAMIT logo'}
-             className={'img-fluid'}
+             className={`img-fluid footer-image`}
       />
-      <p>
-        &copy; 2023{' '}
+      <p className={'d-flex justify-content-center'}>
+        <span>
+          &copy; 2023&nbsp;
+        </span>
         <span className={'d-md-none'}>
           DAMIT
         </span>

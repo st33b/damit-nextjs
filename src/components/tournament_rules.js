@@ -30,11 +30,6 @@ const TournamentRules = () => {
         ))}
 
       </div>
-      {/*<ul>*/}
-      {/*  <li>*/}
-      {/*    Do not talk about DAMIT.*/}
-      {/*  </li>*/}
-      {/*</ul>*/}
     </section>
   );
 }
