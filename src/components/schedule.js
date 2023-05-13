@@ -24,7 +24,8 @@ const Schedule = () => {
         </div>
         <div className={`col-sm-3 ${styles.Time}`}>
           <h5>
-            12pm-4pm
+            Time TBA
+            {/*12pm-4pm*/}
           </h5>
         </div>
       </div>
@@ -47,28 +48,29 @@ const Schedule = () => {
         </div>
         <div className={`col-sm-3 ${styles.Time}`}>
           <h5>
-            11am-4pm
+            Time TBA
+            {/*11am-4pm*/}
           </h5>
         </div>
       </div>
 
-      <hr className={`col offset-md-4`}/>
+      {/*<hr className={`col offset-md-4`}/>*/}
 
-      <div className={`row ${styles.Event}`}>
-        <div className={`offset-sm-4 col-sm-5 ${styles.Detail}`}>
-          <h5>
-            Awards Ceremony
-          </h5>
-          <p>
-            We&apos;ll gather in the meeting room at Plano Super Bowl.
-          </p>
-        </div>
-        <div className={`col-sm-3 ${styles.Time}`}>
-          <h5>
-            4:30-5pm
-          </h5>
-        </div>
-      </div>
+      {/*<div className={`row ${styles.Event}`}>*/}
+      {/*  <div className={`offset-sm-4 col-sm-5 ${styles.Detail}`}>*/}
+      {/*    <h5>*/}
+      {/*      Awards Ceremony*/}
+      {/*    </h5>*/}
+      {/*    <p>*/}
+      {/*      We&apos;ll gather in the meeting room at Plano Super Bowl.*/}
+      {/*    </p>*/}
+      {/*  </div>*/}
+      {/*  <div className={`col-sm-3 ${styles.Time}`}>*/}
+      {/*    <h5>*/}
+      {/*      4:30-5pm*/}
+      {/*    </h5>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
 
     </section>
   )

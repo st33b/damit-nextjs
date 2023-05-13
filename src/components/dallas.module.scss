@@ -1,7 +1,26 @@
 .Dallas {
+  .BackgroundColor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .BackgroundImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+    background-size: cover;
+  }
   .JumboImage {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
 
     height: 20vh;
     min-height: 150px;
@@ -11,36 +30,73 @@
       min-height: 400px;
     }
 
-    .BackgroundColor {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
     .DowntownDaytimeColor {
       background-color: #2962ad;
     }
 
-    .BackgroundImage {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: 0;
-      background-repeat: no-repeat;
-      background-position: 0 25%;
-      background-size: cover;
-    }
     .DowntownDaytimeImage {
-      background-image: url('../images/downtown-daytime-750w.jpeg');
+      background-image: url('../images/dallas/downtown-daytime-750w.jpeg');
       @media (min-width: 768px) {
-        background-image: url('../images/downtown-daytime.jpeg');
+        background-image: url('../images/dallas/downtown-daytime.jpeg');
       }
     }
   }
+  .Credit {
+    text-align: center;
+    font-size: 80%;
+    opacity: 80%;
+  }
+
+  .Thing {
+    margin-bottom: 1rem;
+    .Image {
+      overflow: hidden;
+      max-height: 10rem;
+
+      .Img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    // an image in a card that will flip from vertical to horizontal at the
+    // small breakpoint (576px wide)
+    .FlippyImage {
+      overflow: hidden;
+      max-height: 10rem;
+
+      @media (min-width: 576px) {
+        max-height: none;
+      }
+      @media (min-width: 768px) {
+        max-height: 10rem;
+      }
+
+      .Img {
+        width: 100%;
+        height: auto;
+
+        @media (min-width: 576px) {
+          height: 100%;
+          object-position: 20% center;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .CardBody {
+      padding-top: 0.5rem;
+    }
+    .ExternalLink {
+
+    }
+    .HighTemp {
+      color: var(--damit-red);
+    }
+    .LowTemp {
+      color: var(--damit-blue);
+    }
+  }
+
   .MoreLink {
     text-align: right;
   }
