@@ -31,9 +31,6 @@ const Sponsors = () => {
                    />
           </a>
         </div>
-        <div className={`${styles.Sponsor} order-2`}>
-          <i className={`bi-badge-ad ${styles.Placeholder}`} />
-        </div>
       </div>
     </section>
   )

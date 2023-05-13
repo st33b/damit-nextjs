@@ -6,6 +6,7 @@ import Contact from "@/components/contact";
 import Dallas from "@/components/dallas";
 import Sponsors from "@/components/sponsors";
 import RootLayout from "@/components/layouts/layout";
+import Local from "@/components/local";
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <Location/>
       <Schedule/>
       <Dallas full={false}/>
+      <Local/>
       {/*<RegisterCTA/>*/}
       <Contact/>
       <Sponsors/>

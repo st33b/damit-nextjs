@@ -11,7 +11,7 @@ const Contact = ({ id }) => {
         Contacts
       </h3>
       <div className={`row justify-content-center`}>
-        <div className={`col-5 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
             <div className={`card-body ${styles.Face}`}>
               <i className={`bi-person-workspace ${styles.Placeholder}`}/>
@@ -29,7 +29,7 @@ const Contact = ({ id }) => {
           </div>
         </div>
 
-        <div className={`col-5 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
             <Image src={scott}
                    alt={'Cartoon image of Scott'}

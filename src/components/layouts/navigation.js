@@ -56,6 +56,11 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className={`nav-item`}>
+                <Link className={`nav-link`} href={'/#igbo-local'}>
+                  IGBO Local
+                </Link>
+              </li>
+              <li className={`nav-item`}>
                 <Link className={`nav-link`} href={'/#contact'}>
                   Contact
                 </Link>
