@@ -65,9 +65,16 @@ body {
     }
 
     p {
-      opacity: .75;
+      opacity: 0.75;
       font-size: 90%;
       margin: 1rem 0;
+
+      a {
+        font-size: 100%;
+        color: var(--damit-body-color);
+        border-left: 1px solid var(--damit-secondary-text-emphasis);
+      }
+
     }
   }
 }

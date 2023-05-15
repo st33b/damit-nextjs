@@ -14,11 +14,20 @@ const Footer = () => {
         <span>
           &copy; 2023&nbsp;
         </span>
-        <span className={'d-md-none'}>
+        <span className={'d-md-none pe-2'}>
           DAMIT
         </span>
-        <span className={'d-none d-md-inline'}>
+        <span className={'d-none d-md-inline pe-2'}>
           Dallas Area Masters Invitational Tournament
+        </span>
+        <span className={`d-inline-block`}>
+          <a href={'https://www.facebook.com/Damitbowling/'}
+             className={'ps-2'}>
+            <i className={'bi bi-facebook'} aria-hidden={true} />
+            <span className={'visually-hidden'}>
+              DAMIT on Facebook
+            </span>
+          </a>
         </span>
       </p>
     </div>
