@@ -6,21 +6,10 @@
     }
   }
   .Map {
-    margin-bottom: 1rem;
-
-    .Dimmer {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: 2;
-      opacity: 0.3;
-      background-color: transparent;
-
-      [data-bs-theme='dark'] & {
-        background-color: black;
-      }
+    [data-bs-theme='dark'] & {
+      filter: brightness(65%);
     }
+
+    margin-bottom: 1rem;
   }
 }

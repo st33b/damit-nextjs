@@ -9,6 +9,11 @@
         opacity: .75;
       }
     }
+    .Image {
+      [data-bs-theme='dark'] & {
+        filter: brightness(65%);
+      }
+    }
     .Name {
       font-weight: bold;
     }

@@ -33,7 +33,7 @@ const Contact = ({ id }) => {
           <div className={`card ${styles.Card}`}>
             <Image src={scott}
                    alt={'Cartoon image of Scott'}
-                   className={'img-fluid card-img-top'}
+                   className={`img-fluid card-img-top ${styles.Image}`}
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
