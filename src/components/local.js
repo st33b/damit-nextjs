@@ -65,6 +65,12 @@ const Local = () => {
                 Big D Classic
               </a>
             </li>
+            <li className={`list-group-item`}>
+              <a href={`https://www.facebook.com/profile.php?id=100090483829360`}
+                 target={'_blank'}>
+                Seniors Handicap Invitational Fall Tournament in DFW (SHIFTD)
+              </a>
+            </li>
           </div>
         </div>
       </div>

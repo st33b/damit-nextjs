@@ -40,7 +40,6 @@ body {
 
       @media(min-width: 768px) {
         text-align: center;
-        //margin: 0 0 1rem 0;
       }
 
       background-color: var(--damit-section-heading-bg);
@@ -58,6 +57,9 @@ body {
     text-align: center;
 
     .footer-image {
+      opacity: 0.85;
+      background-color: var(--damit-gray-400);
+
       [data-bs-theme='dark'] & {
         opacity: 0.75;
         background-color: var(--damit-gray-500);

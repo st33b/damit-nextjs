@@ -1,6 +1,8 @@
 // Miscellaneous mappings
 :root,
 [data-bs-theme="light"] {
+  --#{$prefix}body-color: #{$gray-200};
+
   --#{$prefix}purple-bg: #{$purple-bg-subtle};
   --#{$prefix}green-bg-subtle: #{$green-bg-subtle};
   --#{$prefix}section-heading-bg: #{$burnt-orange};
@@ -15,6 +17,8 @@
 // dark colors!
 @include color-mode(dark, true) {
   color-scheme: dark;
+
+  --#{$prefix}body-color: #{$gray-400};
 
   --#{$prefix}purple: #{$purple-dark};
   --#{$prefix}purple-bg: #{$purple-bg-subtle-dark};

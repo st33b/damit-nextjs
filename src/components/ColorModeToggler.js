@@ -5,7 +5,7 @@ import {useClientReady} from "@/utils/misc";
 const ColorModeToggler = (props) => {
   const themeLinkContents = {
     auto: {
-      iconClass: 'bi bi-arrow-repeat',
+      iconClass: 'bi bi-circle-half',
       ariaText: 'Automatic',
     },
     light: {

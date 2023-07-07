@@ -1,5 +1,9 @@
 .Location {
   .Logo {
+    opacity: 0.85;
+    background-color: var(--damit-gray-400);
+    padding: 0.75rem 0;
+
     [data-bs-theme='dark'] & {
       background-color: var(--damit-gray-500);
       opacity: .75;

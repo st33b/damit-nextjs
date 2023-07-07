@@ -17,25 +17,24 @@ $font-family-sans-serif:
   "Noto Color Emoji";
 
 // Color overrides
-$purple:    #6f42c1;
+$purple:    #7030a0;
 $purple-dark: shade-color($purple, 40%);
 $purple-bg-subtle:      tint-color($purple, 75%);
 $purple-bg-subtle-dark: shade-color($purple, 80%);
 
-$green: #298648;
+$green: #30a070;
 $green-bg-subtle: shade-color($green, 20%);
 $green-bg-subtle-dark: shade-color($green, 60%);
 
-$burnt-orange: #b2653a;
+$burnt-orange: #a07030;
 $burnt-orange-dark: shade-color($burnt-orange, 40%);
 
-//$primary: $purple;
-
-$body-bg: tint-color($purple, 85%);
-$link-color: $green;
+//$body-color:
+$body-bg: shade-color($purple, 10%);
+$link-color: tint-color($green, 25%);
 
 // Dark mode color overrides
-$body-bg-dark: shade-color($purple, 80%);
+$body-bg-dark: shade-color($purple, 60%);
 $link-color-dark: $green;
 
 // Miscellaneous overrides
