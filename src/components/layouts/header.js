@@ -8,7 +8,7 @@ const Header = () => (
     <meta httpEquiv={"Content-Type"} content={"text/html; charset=utf-8"} />
     <meta name={"title"} content={siteTitle} />
     <meta name={"viewport"} content={"width=device-width, initial-scale=1.0, shrink-to-fit=no"} />
-    <meta name={'description'} content={'DAMIT is the Dallas Area MAsters Invitational Tournament, an IGBO-affiliated bowling tournament'} />
+    <meta name={'description'} content={'DAMIT is the Dallas Area Masters Invitational Tournament, an IGBO-affiliated bowling tournament'} />
     <meta name={'twitter:card'} content={'summary_large_image'} />
     <link rel="icon" type="image/x-icon" href="/icon.jpg" />
   </Head>

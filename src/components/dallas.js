@@ -6,6 +6,7 @@ import bigTex from '@/images/dallas/big-tex.jpeg';
 import sportsBalls from '@/images/dallas/sports-balls.jpg';
 import texMex from '@/images/dallas/tex-mex.jpg';
 import sunshine from '@/images/dallas/sun-rays.jpg';
+import Sponsors from "@/components/sponsors";
 
 const Dallas = ({full}) => {
   // full determines whether we show a summary or the whole shebang
@@ -218,6 +219,7 @@ const Dallas = ({full}) => {
 
         </div>
       )}
+      <Sponsors/>
     </section>
   )
 }
