@@ -30,8 +30,8 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className={`nav-item`} title={'Registration is not yet open'}>
-                <a className={`nav-link disabled`}
-                   href={'#'}
+                <a className={`nav-link`}
+                   href={'https://www.tourn.io/tournaments/damit-2023'}
                    onClick={() => {}}
                 >
                   Register
@@ -45,6 +45,11 @@ const Navigation = () => {
               <li className={`nav-item`}>
                 <Link className={`nav-link`} href={'/#schedule'}>
                   Schedule
+                </Link>
+              </li>
+              <li className={`nav-item`}>
+                <Link className={`nav-link`} href={'/#raffle'}>
+                  Charity
                 </Link>
               </li>
               <li className={`nav-item`}>

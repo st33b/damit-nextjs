@@ -1,11 +1,16 @@
 import Image from "next/image";
 import logo from '../../images/damit.png';
+import Sponsors from "@/components/sponsors";
+import RegisterCTA from "@/components/register_cta";
 
 const Footer = () => {
 
   return (
     <div>
+      <Sponsors/>
       <hr />
+      <RegisterCTA/>
+      <hr/>
       <Image src={logo}
              alt={'DAMIT logo'}
              className={`img-fluid footer-image`}
