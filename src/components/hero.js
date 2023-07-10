@@ -20,7 +20,7 @@ const Hero = () => {
           October 7-8, 2023
         </h3>
 
-        <p>
+        <p className={styles.Spotlight}>
           A unique tournament with Singles and Baker Doubles events. Bowlers may enter either or both events.
         </p>
 

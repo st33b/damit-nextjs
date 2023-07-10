@@ -2,6 +2,9 @@
 @import 'bootstrap-icons/font/bootstrap-icons.min.css';
 
 body {
+  overflow-x: hidden;
+  position: relative;
+
   --damit-title-font-family: Oswald, var(--damit-font-sans-serif);
 
   .navigation {
