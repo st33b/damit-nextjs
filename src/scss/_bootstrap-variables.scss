@@ -29,13 +29,14 @@ $green-bg-subtle-dark: shade-color($green, 60%);
 $burnt-orange: #a07030;
 $burnt-orange-dark: shade-color($burnt-orange, 40%);
 
-//$body-color:
 $body-bg: shade-color($purple, 10%);
 $link-color: tint-color($green, 25%);
 
+$link-shade-percentage: 5%;
+
 // Dark mode color overrides
 $body-bg-dark: shade-color($purple, 60%);
-$link-color-dark: $green;
+$link-color-dark: shade-color($green, 20%);
 
 // Miscellaneous overrides
 $font-size-root: 18px; // Make text a bit bigger than default

@@ -22,7 +22,7 @@ const Raffle = () => {
              alt={'The raffle prize is a bowling ball with the charity logo'}
              fill={``}
              className={`img-fluid`}
-             sizes={'(max-width: 767px) 67vw'}
+             sizes={'(max-width: 767px) 67vw, (max-width: 991px) 50vw, (max-width: 1199px) 34vw, (min-width: 1400px) 25vw'}
       />
     </div>
   );

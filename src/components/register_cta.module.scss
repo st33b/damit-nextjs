@@ -9,24 +9,33 @@
       border-color: var(--damit-link-hover-color);
     }
 
-    [data-bs-theme='dark'] & {
-
-    }
+    //[data-bs-theme='dark'] & {
+    //  &:hover, &:active {
+    //    background-color: var(--damit-link-hover-color);
+    //    border-color: var(--damit-link-hover-color);
+    //  }
+    //}
   }
 
   .RaffleLink {
     // This is the color of the bowling ball, toned down just a bit.
-    background-color: rgba(228, 0, 92, .9);
-    border-color: rgba(228, 0, 92, .9);
-    color: white;
+    background-color: rgba(228, 0, 92, .85);
+    border-color: rgba(228, 0, 92, .7);
+    color: var(--damit-body-color);
     &:hover, &:active {
-      background-color: rgba(228, 0, 92, .5);
+      background-color: rgba(228, 0, 92, .6);
       border-color: rgba(228, 0, 92, .7);
-      color: var(--tournio-gray-300);
+      color: var(--damit-gray-300);
     }
 
     [data-bs-theme='dark'] & {
-
+      background-color: rgba(228, 0, 92, .4);
+      border-color: rgba(228, 0, 92, .7);
+      color: var(--damit-body-color);
+      &:hover, &:active {
+        background-color: rgba(228, 0, 92, .6);
+        border-color: rgba(228, 0, 92, .7);
+      }
     }
   }
 }
