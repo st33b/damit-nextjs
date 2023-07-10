@@ -7,6 +7,7 @@ import Dallas from "@/components/dallas";
 import Sponsors from "@/components/sponsors";
 import RootLayout from "@/components/layouts/layout";
 import Local from "@/components/local";
+import Raffle from "@/components/raffle";
 
 const MainPage = () => {
   return (
@@ -14,11 +15,11 @@ const MainPage = () => {
       <Hero/>
       <Location/>
       <Schedule/>
+      <Raffle/>
       <Dallas full={false}/>
       <Local/>
       {/*<RegisterCTA/>*/}
       <Contact/>
-      <Sponsors/>
     </div>
   )
 }

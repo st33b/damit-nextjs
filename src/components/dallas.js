@@ -219,7 +219,6 @@ const Dallas = ({full}) => {
 
         </div>
       )}
-      <Sponsors/>
     </section>
   )
 }

@@ -1,10 +1,12 @@
 import Image from "next/image";
 import logo from '../../images/damit.png';
+import Sponsors from "@/components/sponsors";
 
 const Footer = () => {
 
   return (
     <div>
+      <Sponsors/>
       <hr />
       <Image src={logo}
              alt={'DAMIT logo'}

@@ -1,3 +1,32 @@
 .RegisterCTA {
+  text-align: center;
 
+  .RegularLink {
+    background-color: var(--damit-green-bg-subtle);
+    border-color: var(--damit-green-bg-subtle);
+    &:hover, &:active {
+      background-color: var(--damit-link-hover-color);
+      border-color: var(--damit-link-hover-color);
+    }
+
+    [data-bs-theme='dark'] & {
+
+    }
+  }
+
+  .RaffleLink {
+    // This is the color of the bowling ball, toned down just a bit.
+    background-color: rgba(228, 0, 92, .9);
+    border-color: rgba(228, 0, 92, .9);
+    color: white;
+    &:hover, &:active {
+      background-color: rgba(228, 0, 92, .5);
+      border-color: rgba(228, 0, 92, .7);
+      color: var(--tournio-gray-300);
+    }
+
+    [data-bs-theme='dark'] & {
+
+    }
+  }
 }
