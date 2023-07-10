@@ -59,7 +59,7 @@ const Raffle = () => {
               className={`${styles.CharityLink}`}
               target={'_blank'}
         >
-          X Out Breast Cancer Foundation
+          Striking Against Breast Cancer
         </Link>
         {' '}through its fundraising efforts.
       </p>

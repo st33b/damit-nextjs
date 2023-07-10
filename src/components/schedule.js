@@ -19,13 +19,12 @@ const Schedule = () => {
             Singles
           </h5>
           <p>
-            Check-in begins 30 minutes prior to start time.
+            Check-in begins 60 minutes prior to start time.
           </p>
         </div>
         <div className={`col-sm-3 ${styles.Time}`}>
           <h5>
-            Time TBA
-            {/*12pm-4pm*/}
+            12pm - 4pm
           </h5>
         </div>
       </div>
@@ -48,8 +47,7 @@ const Schedule = () => {
         </div>
         <div className={`col-sm-3 ${styles.Time}`}>
           <h5>
-            Time TBA
-            {/*11am-4pm*/}
+            10am - 4pm
           </h5>
         </div>
       </div>
