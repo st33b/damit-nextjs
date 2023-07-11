@@ -34,7 +34,7 @@ const Raffle = () => {
       <em>
         online-only
       </em>
-      {' '}bundle of 50 tickets. Buy your tickets when you register!
+      {' '}bundle of 100 tickets for $50. Buy your tickets when you register!
     </p>
   );
 
