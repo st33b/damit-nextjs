@@ -1,14 +1,14 @@
 // Miscellaneous mappings
 :root,
 [data-bs-theme="light"] {
-  --#{$prefix}body-color: #{$gray-200};
+  --#{$prefix}body-color: #{$gray-100};
 
   --#{$prefix}purple-bg: #{$purple-bg-subtle};
   --#{$prefix}green-bg-subtle: #{$green-bg-subtle};
   --#{$prefix}section-heading-bg: #{$burnt-orange};
 
   .navbar {
-    --#{$prefix}navbar-color: #{$gray-300};
+    --#{$prefix}navbar-color: #{$gray-100};
     --#{$prefix}navbar-hover-color: #{$gray-100};
     --#{$prefix}navbar-active-color: #{$gray-100};
   }
@@ -18,7 +18,7 @@
 @include color-mode(dark, true) {
   color-scheme: dark;
 
-  --#{$prefix}body-color: #{$gray-400};
+  --#{$prefix}body-color: #{$gray-200};
 
   --#{$prefix}purple: #{$purple-dark};
   --#{$prefix}purple-bg: #{$purple-bg-subtle-dark};
@@ -28,7 +28,7 @@
   //--#${prefix}link-hover-color: #${}
 
   .navbar {
-    --#{$prefix}navbar-color: #{$gray-400};
+    --#{$prefix}navbar-color: #{$gray-200};
     --#{$prefix}navbar-hover-color: #{$body-color};
     --#{$prefix}navbar-active-color: #{$body-color};
   }

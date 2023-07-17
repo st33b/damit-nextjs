@@ -29,19 +29,18 @@ const Navigation = () => {
                   Home
                 </Link>
               </li>
-              <li className={`nav-item`} title={'Registration is not yet open'}>
+              <li className={`nav-item`} title={'Registration is open'}>
                 <a className={`nav-link`}
                    href={'https://www.tourn.io/tournaments/damit-2023'}
-                   onClick={() => {}}
                 >
                   Register
                 </a>
               </li>
-              <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#location'}>
-                  Bowling Center
-                </Link>
-              </li>
+              {/*<li className={`nav-item`}>*/}
+              {/*  <Link className={`nav-link`} href={'/#location'}>*/}
+              {/*    Bowling Center*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li className={`nav-item`}>
                 <Link className={`nav-link`} href={'/#schedule'}>
                   Schedule
@@ -62,11 +61,11 @@ const Navigation = () => {
                   Dallas
                 </Link>
               </li>
-              <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#igbo-local'}>
-                  IGBO Local
-                </Link>
-              </li>
+              {/*<li className={`nav-item`}>*/}
+              {/*  <Link className={`nav-link`} href={'/#igbo-local'}>*/}
+              {/*    IGBO Local*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li className={`nav-item`}>
                 <Link className={`nav-link`} href={'/#contact'}>
                   Contact
