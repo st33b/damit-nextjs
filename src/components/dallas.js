@@ -20,8 +20,8 @@ const Dallas = ({full}) => {
       </h3>
 
       <div className={styles.JumboImage}>
-        <div className={`${styles.BackgroundColor} ${styles.DowntownDaytimeColor}`}/>
-        <div className={`${styles.BackgroundImage} ${styles.DowntownDaytimeImage}`}/>
+        <div className={`${styles.DowntownDaytimeColor}`}/>
+        <div className={`${styles.DowntownDaytimeImage}`}/>
       </div>
       <div className={`${styles.Credit}`}>
         Image via{' '}
@@ -100,7 +100,7 @@ const Dallas = ({full}) => {
               <Image src={bigTex}
                      alt={'Big Tex'}
                      className={`${styles.Img}`}
-                     sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
+                     sizes={'(max-width: 575px) 95vw, (min-width: 768px) 50vw, (min-width: 992px) 33vw'}
               />
             </div>
             <div className={`${styles.Credit}`}>

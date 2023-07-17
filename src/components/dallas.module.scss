@@ -1,24 +1,4 @@
 .Dallas {
-  .BackgroundColor {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.3;
-  }
-  .BackgroundImage {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -2 ;
-    background-repeat: no-repeat;
-    background-position: 0 25%;
-    background-size: cover;
-  }
   .JumboImage {
     position: relative;
     margin-bottom: 0.25rem;
@@ -32,6 +12,13 @@
     }
 
     .DowntownDaytimeColor {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.3;
       background-color: transparent;
 
       [data-bs-theme='dark'] & {
@@ -40,6 +27,16 @@
     }
 
     .DowntownDaytimeImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -2 ;
+      background-repeat: no-repeat;
+      background-position: 0 25%;
+      background-size: cover;
+
       background-image: url('../images/dallas/downtown-daytime-750w.jpeg');
       @media (min-width: 768px) {
         background-image: url('../images/dallas/downtown-daytime.jpeg');
