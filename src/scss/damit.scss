@@ -6,6 +6,7 @@ body {
   position: relative;
 
   --damit-title-font-family: Oswald, var(--damit-font-sans-serif);
+  text-shadow: 1px 1px 1px var(--damit-black);
 
   .navigation {
 
@@ -49,7 +50,7 @@ body {
 
       color: var(--damit-gray-100);
       [data-bs-theme='dark'] & {
-        color: var(--damit-gray-400);
+        color: var(--damit-gray-300);
       }
     }
 
@@ -64,17 +65,16 @@ body {
     text-align: center;
 
     .footer-image {
-      opacity: 0.85;
-      background-color: var(--damit-gray-400);
+      //opacity: 0.85;
+      background-color: var(--damit-gray-200);
 
       [data-bs-theme='dark'] & {
-        opacity: 0.75;
+        //opacity: 0.75;
         background-color: var(--damit-gray-500);
       }
     }
 
     p {
-      opacity: 0.75;
       font-size: 90%;
       margin: 1rem 0;
 

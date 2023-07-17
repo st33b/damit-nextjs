@@ -8,9 +8,9 @@
     margin-right: 1.5rem;
     padding-bottom: 2.5rem;
 
-    color: var(--damit-gray-400);
+    color: var(--damit-gray-200);
     [data-bs-theme='dark'] & {
-      color: var(--damit-gray-500);
+      color: var(--damit-gray-400);
     }
 
     h1 {
@@ -43,10 +43,10 @@
     bottom: 0;
     z-index: -1;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.3;
 
     [data-bs-theme='dark'] & {
-      opacity: 0.75;
+      opacity: 0.5;
     }
   }
   .BackgroundImage {
