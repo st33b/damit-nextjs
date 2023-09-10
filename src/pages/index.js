@@ -6,6 +6,7 @@ import Dallas from "@/components/dallas";
 import RootLayout from "@/components/layouts/layout";
 import Local from "@/components/local";
 import Raffle from "@/components/raffle";
+import Shirts from "@/components/shirts";
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <Location/>
       <Schedule/>
       <Raffle/>
+      <Shirts/>
       <Dallas full={false}/>
       <Local/>
       <Contact/>

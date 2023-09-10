@@ -52,6 +52,11 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className={`nav-item`}>
+                <Link className={`nav-link`} href={'/#shirts'}>
+                  T-shirts
+                </Link>
+              </li>
+              <li className={`nav-item`}>
                 <Link className={`nav-link`} href={'/rules'}>
                   Rules
                 </Link>
