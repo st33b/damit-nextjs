@@ -43,6 +43,12 @@ const Local = () => {
                 L.A.M.B.D.A.
               </a>
             </li>
+            <li className={`list-group-item`}>
+              <a href={'https://www.facebook.com/groups/DallasLGBTBowling'}
+                 target={'_blank'}>
+                Metroplex Bowling Association
+              </a>
+            </li>
           </div>
         </div>
 
@@ -66,9 +72,9 @@ const Local = () => {
               </a>
             </li>
             <li className={`list-group-item`}>
-              <a href={`https://www.facebook.com/profile.php?id=100090483829360`}
+              <a href={`https://www.shiftid.org`}
                  target={'_blank'}>
-                Seniors Handicap Invitational Fall Tournament in DFW (SHIFTD)
+                Seniors Handicap Invitational Fall Tournament in DFW (SHIFTID)
               </a>
             </li>
           </div>
