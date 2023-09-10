@@ -1,9 +1,10 @@
 import styles from './contact.module.scss';
 
+import steven from '@/images/steven.jpg';
 import scott from '@/images/scott.jpg';
 import Image from "next/image";
 
-const Contact = ({ id }) => {
+const Contact = () => {
 
   return (
     <section className={styles.Contact} id={'contact'}>
@@ -13,9 +14,13 @@ const Contact = ({ id }) => {
       <div className={`row justify-content-center`}>
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
-            <div className={`card-body ${styles.Face}`}>
-              <i className={`bi-person-workspace ${styles.Placeholder}`}/>
-            </div>
+            <Image src={steven}
+                   alt={'Picture of Steven'}
+                   className={`img-fluid card-img-top ${styles.Image}`}
+            />
+            {/*<div className={`card-body ${styles.Face}`}>*/}
+            {/*  <i className={`bi-person-workspace ${styles.Placeholder}`}/>*/}
+            {/*</div>*/}
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
                 <a href={'mailto:damitdirectors@gmail.com?subject=About%20DAMIT'}>
@@ -32,7 +37,7 @@ const Contact = ({ id }) => {
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
             <Image src={scott}
-                   alt={'Cartoon image of Scott'}
+                   alt={'Picture of Scott'}
                    className={`img-fluid card-img-top ${styles.Image}`}
             />
             <div className={`card-body`}>
