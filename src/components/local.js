@@ -74,7 +74,7 @@ const Local = () => {
             <li className={`list-group-item`}>
               <a href={`https://www.shiftid.org`}
                  target={'_blank'}>
-                Seniors Handicap Invitational Fall Tournament in DFW (SHIFTID)
+                Seniors Handicap Invitational Family Tournament in DFW (SHIFTID)
               </a>
             </li>
           </div>

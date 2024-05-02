@@ -9,7 +9,7 @@ const Raffle = () => {
 
   const p1 = (
     <p>
-      We are raffling off a 14- or 15-pound Storm{' '}
+      We raffled off a 14- or 15-pound Storm{' '}
       <strong>
         #SpareTheGirls
       </strong>
@@ -27,25 +27,25 @@ const Raffle = () => {
     </div>
   );
 
-  const p2 = (
-    <p>
-      Tickets will be available at the tournament in bundles of 1, 6, and 30, but we&apos;re offering an
-      advance,{' '}
-      <em>
-        online-only
-      </em>
-      {' '}bundle of 100 tickets for $50. Buy your tickets when you register!
-    </p>
-  );
+  // const p2 = (
+  //   <p>
+  //     Tickets will be available at the tournament in bundles of 1, 6, and 30, but we&apos;re offering an
+  //     advance,{' '}
+  //     <em>
+  //       online-only
+  //     </em>
+  //     {' '}bundle of 100 tickets for $50. Buy your tickets when you register!
+  //   </p>
+  // );
 
-  const p3 = (
-    <p>
-        <span className={styles.Percentage}>
-          100% of raffle proceeds
-        </span>
-      {' '}go to the charity. In 2022, we raised $1500; will you help us surpass that this year?
-    </p>
-  );
+  // const p3 = (
+  //   <p>
+  //       <span className={styles.Percentage}>
+  //         100% of raffle proceeds
+  //       </span>
+  //     {' '}go to the charity. In 2022, we raised $1500; will you help us surpass that this year?
+  //   </p>
+  // );
 
   return (
     <section className={styles.Raffle} id={'raffle'}>
@@ -72,12 +72,12 @@ const Raffle = () => {
         <div className={'col-8'}>
           {imageBox}
         </div>
-        <div className={'col-12'}>
-          {p2}
-        </div>
-        <div className={'col-12'}>
-          {p3}
-        </div>
+        {/*<div className={'col-12'}>*/}
+        {/*  {p2}*/}
+        {/*</div>*/}
+        {/*<div className={'col-12'}>*/}
+        {/*  {p3}*/}
+        {/*</div>*/}
       </div>
 
       {/* Medium and up */}
@@ -87,12 +87,12 @@ const Raffle = () => {
         </div>
         <div className={'col'}>
           {p1}
-          {p2}
-          {p3}
+          {/*{p2}*/}
+          {/*{p3}*/}
         </div>
       </div>
 
-      <RegisterCTA flavor={'raffle'}/>
+      {/*<RegisterCTA flavor={'raffle'}/>*/}
     </section>
   );
 }

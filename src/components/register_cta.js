@@ -9,11 +9,11 @@ const RegisterCTA = ({flavor=`regular`}) => {
 
   return (
     <div className={styles.RegisterCTA}>
-      <Link href={`https://www.tourn.io/tournaments/damit-2023`}
-            className={`btn btn-lg ${linkStyle}`}
-            >
+      {/*<Link href={`https://www.tourn.io/tournaments/damit-2023`}*/}
+      {/*      className={`btn btn-lg ${linkStyle}`}*/}
+      {/*      >*/}
         Register
-      </Link>
+      {/*</Link>*/}
     </div>
   )
 }
