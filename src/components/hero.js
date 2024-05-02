@@ -16,15 +16,19 @@ const Hero = () => {
           {' '}bowling tournament
         </h2>
 
+        {/*<h3>*/}
+        {/*  October 7-8, 2023*/}
+        {/*</h3>*/}
+
         <h3>
-          October 7-8, 2023
+          A unique tournament with Singles and Baker Doubles events. Bowlers may enter either or both events.
         </h3>
 
         <p className={styles.Spotlight}>
-          A unique tournament with Singles and Baker Doubles events. Bowlers may enter either or both events.
+          Unfortunately, the 2023 instance of DAMIT was the tournament&apos;s last until further notice. Thank you to all the bowlers and volunteers who helped make the tournament a reality!
         </p>
 
-        <RegisterCTA/>
+        {/*<RegisterCTA/>*/}
       </div>
 
       <div className={styles.BackgroundBasis}/>

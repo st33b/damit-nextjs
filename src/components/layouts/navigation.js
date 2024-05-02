@@ -29,13 +29,13 @@ const Navigation = () => {
                   Home
                 </Link>
               </li>
-              <li className={`nav-item`} title={'Registration is open'}>
-                <a className={`nav-link`}
-                   href={'https://www.tourn.io/tournaments/damit-2023'}
-                >
-                  Register
-                </a>
-              </li>
+              {/*<li className={`nav-item`} title={'Registration is open'}>*/}
+              {/*  <a className={`nav-link`}*/}
+              {/*     href={'https://www.tourn.io/tournaments/damit-2023'}*/}
+              {/*  >*/}
+              {/*    Register*/}
+              {/*  </a>*/}
+              {/*</li>*/}
               {/*<li className={`nav-item`}>*/}
               {/*  <Link className={`nav-link`} href={'/#location'}>*/}
               {/*    Bowling Center*/}

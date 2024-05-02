@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div>
       <Sponsors/>
-      <hr />
-      <RegisterCTA/>
+      {/*<hr />*/}
+      {/*<RegisterCTA/>*/}
       <hr/>
       <Image src={logo}
              alt={'DAMIT logo'}

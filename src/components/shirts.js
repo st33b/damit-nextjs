@@ -15,20 +15,20 @@ const Shirts = () => {
       </h3>
       <div className={`row`}>
         <p className={`lead`}>
-          We&apos;re selling t-shirts!
+          T-shirts!
         </p>
         <p>
           For a limited time, you can buy T-shirts along with your entry fee! Shirts are available in both men&apos;s and women&apos;s fits, in sizes ranging from XS to 3XL.
         </p>
-        <p>
-          Check &apos;em out below, and buy one after&nbsp;
-          <Link href={`https://www.tourn.io/tournaments/damit-2023`}
-                className={``}
-          >
-            registering
-          </Link>
-          .
-        </p>
+        {/*<p>*/}
+        {/*  Check &apos;em out below, and buy one after&nbsp;*/}
+        {/*  <Link href={`https://www.tourn.io/tournaments/damit-2023`}*/}
+        {/*        className={``}*/}
+        {/*  >*/}
+        {/*    registering*/}
+        {/*  </Link>*/}
+        {/*  .*/}
+        {/*</p>*/}
       </div>
       <div className={`row justify-content-center`}>
         <div className={`col-12 col-sm-6 col-lg-4`}>
